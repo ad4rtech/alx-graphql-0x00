@@ -1,0 +1,11 @@
+{
+    "data": {
+        "id": "4",
+        "name": "Robot Snake",
+        "status": "unknown",
+        "species": "Robot",
+        "type": "Snake",
+        "gender": "Genderless"
+
+    }
+}
