@@ -1,14 +1,30 @@
-# Character by ID Queries
+# Character Queries
 
-This directory contains GraphQL queries that fetch a specific Rick and Morty character using the `character(id: ID!)` field.
+This directory contains GraphQL queries related to retrieving characters from the Rick and Morty API.
 
-Each query file requests the following fields:
+## Queries Included
+
+### 1. Get Character by ID
+Files:
+- character-id-1.graphql → character-id-1-output.json
+- character-id-2.graphql → character-id-2-output.json
+- character-id-3.graphql → character-id-3-output.json
+- character-id-4.graphql → character-id-4-output.json
+
+### 2. Get Paginated List of Characters
+Using `characters(page: Int)`.
+
+Required fields:
 - id
 - name
 - status
-- species
-- type
-- gender
+- image
 
-The output files contain the JSON responses returned by the API:
+Files:
+- characters-page-1.graphql → characters-page-1-output.json
+- characters-page-2.graphql → characters-page-2-output.json
+- characters-page-3.graphql → characters-page-3-output.json
+- characters-page-4.graphql → characters-page-4-output.json
+
+API Endpoint:
 https://rickandmortyapi.com/graphql
